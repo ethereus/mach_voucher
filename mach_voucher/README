@@ -1,0 +1,13 @@
+mach_voucher
+
+mach_voucher (originally "Chaos") is a kernel exploit exploiting `ipc_voucher` by @S0rryMyBad & rewritten by @yumiistar.
+@GeoSn0w has also made a project on this (maybe more complete because some functionnalities on his project aren't in mine), you can find it here: https://github.com/GeoSn0w/Chaos
+
+I. Depends
+	- An iOS 11.4.1 - 12.1.2 iDevice
+	- XCode & XCode Command Line Tools
+	- Coffee
+
+II. Contribute
+	- Feel really free to contribute and help me to improve this exploit!
+
