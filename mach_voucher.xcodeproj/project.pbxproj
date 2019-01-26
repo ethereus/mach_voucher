@@ -12,7 +12,6 @@
 		0FFD7DD821FA5A4D00D32232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD7DD721FA5A4D00D32232 /* Assets.xcassets */; };
 		0FFD7DE621FA5AE200D32232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD7DE421FA5AE100D32232 /* Main.storyboard */; };
 		0FFD7DE921FA5B1B00D32232 /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD7DE721FA5B1B00D32232 /* exploit.c */; };
-		0FFD7DEC21FA5CE700D32232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD7DEA21FA5CE700D32232 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		0FFD7DE521FA5AE100D32232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FFD7DE721FA5B1B00D32232 /* exploit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = exploit.c; sourceTree = "<group>"; };
 		0FFD7DE821FA5B1B00D32232 /* exploit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exploit.h; sourceTree = "<group>"; };
-		0FFD7DEB21FA5CE700D32232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../IOKay/IOKay/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				0FFD7DD221FA5A3700D32232 /* ViewController.m */,
 				0FFD7DE421FA5AE100D32232 /* Main.storyboard */,
 				0FFD7DD721FA5A4D00D32232 /* Assets.xcassets */,
-				0FFD7DEA21FA5CE700D32232 /* LaunchScreen.storyboard */,
 				0FFD7DDC21FA5A4D00D32232 /* Info.plist */,
 				0FFD7DE721FA5B1B00D32232 /* exploit.c */,
 				0FFD7DE821FA5B1B00D32232 /* exploit.h */,
@@ -130,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFD7DEC21FA5CE700D32232 /* LaunchScreen.storyboard in Resources */,
 				0FFD7DD821FA5A4D00D32232 /* Assets.xcassets in Resources */,
 				0FFD7DE621FA5AE200D32232 /* Main.storyboard in Resources */,
 			);
@@ -158,14 +154,6 @@
 				0FFD7DE521FA5AE100D32232 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0FFD7DEA21FA5CE700D32232 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FFD7DEB21FA5CE700D32232 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
