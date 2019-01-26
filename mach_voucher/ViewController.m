@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 #include "exploit.h"
 
 #include <Foundation/Foundation.h>
@@ -24,11 +25,17 @@
     [super viewDidLoad];
 }
 
-int main(void) {
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    if (exploit() != KERN_FAILURE) {
+        NSLog(@"Pwned ツ\n");
+    }
+}
+
+int main(int argc, char * argv[]) {
     @autoreleasepool {
-        if (exploit() != KERN_FAILURE) {
-            NSLog(@"Pwned ツ\n");
-        }
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
 
