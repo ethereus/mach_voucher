@@ -28,7 +28,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    if (exploit() != KERN_FAILURE) {
+    if (exploit() != MACH_PORT_NULL) {
         printf("Pwned ツ\n");
     }
 }
